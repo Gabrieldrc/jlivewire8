@@ -18,7 +18,7 @@ class CreatePostsTable extends Migration
 
             $table->unsignedBigInteger('course_id');
 
-            $ablte->string('name');
+            $table->string('name');
             $table->boolean('free')->default(0);
 
             $table->timestamps();
