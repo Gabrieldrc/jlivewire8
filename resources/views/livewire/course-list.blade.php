@@ -1,3 +1,7 @@
-<div>
-    {{-- Stop trying to control. --}}
-</div>
+<ul>
+    @foreach ($courses as $course)
+    <li>
+        {{ $course->id}}
+    </li>
+    @endforeach
+</ul>
